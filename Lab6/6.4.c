@@ -13,3 +13,9 @@ int main(){
     scanf("%d",&n);
     Fibonacci(0,1,n);
 }
+/*
+or you can make int Fibb(int n){                      n represents nth term
+		if(n==1) return 0;
+		if(n==2) return 1;
+		else return Fibb(n-1) + Fibb(n-2);
+		*/
