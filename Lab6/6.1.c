@@ -6,7 +6,7 @@ int mult(int,int);
 float div(int,int);
 int main(){
     int a,b;
-    printf("Input two integers");
+    printf("Input two integers a and b");
     scanf(" %d %d",&a,&b);
     printf("a+b=%d\n",add(a,b));
     printf("a-b=%d\n",sub(a,b));

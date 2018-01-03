@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void Fibonacci(int a,int b,int n){
-    if(a<n){
+    if(a<=n){
     printf(" %d ",a);
     b=a+b; a=b-a;
     Fibonacci(a,b,n);
